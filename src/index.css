@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .underline-hover::after {
+      content: '';
+      display: block;
+      width: 0%;
+      height: 3px;
+      background-color: #374151;
+      border-radius: 50px;
+      margin-top: 4px;
+      transition: width 0.4s ease;
+    }
+  
+    .underline-hover:hover::after {
+      width: 100%;
+    }
+}
+
+@layer utilities {
+  .text-stroke {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: #fff;
+    text-shadow: 
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000,
+      -2px 0px 0 #000,
+      2px 0px 0 #000,
+      0px -2px 0 #000,
+      0px 2px 0 #000;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.user-drag-none {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+}
+
+.custom-line {
+  border: none;
+  border-top: 1px solid #000;
+  margin: 20px 0;
+}
