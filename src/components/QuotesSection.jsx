@@ -22,7 +22,7 @@ export default function QuotesSection() {
     });
 
     return (
-        <div className='w-screen h-[600px] background-transparent flex items-center justify-center flex-col'>
+        <div className='w-screen h-[655px] bg-transparent flex items-center justify-center flex-col'>
             <div className='text-center text-6xl font-bebas-neue text-white'>
                 <TypewriterEffect
                     textStyle={{
