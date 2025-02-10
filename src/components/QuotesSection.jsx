@@ -23,11 +23,10 @@ export default function QuotesSection() {
 
     return (
         <div className='w-screen h-[600px] background-transparent flex items-center justify-center flex-col'>
-            <div className='text-center text-6xl font-bebas-neue text-white'>
+            <div className='text-center font-bebas-neue text-white lg:text-[8rem] md:text-[6rem] sm:text-[5rem] xs:text-[4rem]'>
                 <TypewriterEffect
                     textStyle={{
                         fontFamily: 'Bebas Neua',
-                        fontSize: '8rem',
                         color: 'white',
                     }}
                     startDelay={250}
@@ -40,7 +39,7 @@ export default function QuotesSection() {
                 />
             </div>
 
-            <p className='text-center text-2xl font-noto-serif text-white font-kanit my-5'>
+            <p className='text-center text-2xl font-noto-serif text-white font-kanit m-5'>
                 {currentQuote}
             </p>
         </div>

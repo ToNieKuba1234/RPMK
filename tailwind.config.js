@@ -6,11 +6,16 @@ module.exports = {
       backgroundImage: {
         'darkblue-gradient': 'linear-gradient(68.1deg, rgba(3, 20, 176, 1) 15%, rgba(3, 20, 40, 1) 85%)',
       },
+      screens: {
+        'xs': '320px',
+        
+      },
       fontFamily: {
         'fire-sans-condensed': ['Fire Sans Condesned', 'sans-serif'],
         'kanit': ['Kanit', 'sans-serif'],
         'noto-serif': ['Noto Serif', 'serif'],
         'bebas-neue': ['Bebas Neue', 'sans-serif'],
+        'selection': ['Selection', 'sans-serif']
       },
       perspective: {
         '1000': '1000px',
