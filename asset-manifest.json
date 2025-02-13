@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/RPMK/static/css/main.d1a72592.css",
-    "main.js": "/RPMK/static/js/main.9eb8bfa2.js",
+    "main.css": "/RPMK/static/css/main.8f5c06a3.css",
+    "main.js": "/RPMK/static/js/main.185f2d4e.js",
     "static/media/wooden_bg.jpg": "/RPMK/static/media/wooden_bg.928faa17fb6c8244ec7b.jpg",
     "static/media/back_card.png": "/RPMK/static/media/back_card.6218b35212a933e75f88.png",
     "static/media/wroclaw.jpg": "/RPMK/static/media/wroclaw.fc4659c1142573dd1cf1.jpg",
     "static/media/temida.jpg": "/RPMK/static/media/temida.615f1a94f65932416cb7.jpg",
     "static/media/front_card.png": "/RPMK/static/media/front_card.55edf2323695e63da27f.png",
     "index.html": "/RPMK/index.html",
-    "main.d1a72592.css.map": "/RPMK/static/css/main.d1a72592.css.map",
-    "main.9eb8bfa2.js.map": "/RPMK/static/js/main.9eb8bfa2.js.map"
+    "main.8f5c06a3.css.map": "/RPMK/static/css/main.8f5c06a3.css.map",
+    "main.185f2d4e.js.map": "/RPMK/static/js/main.185f2d4e.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1a72592.css",
-    "static/js/main.9eb8bfa2.js"
+    "static/css/main.8f5c06a3.css",
+    "static/js/main.185f2d4e.js"
   ]
 }
