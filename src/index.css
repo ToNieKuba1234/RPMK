@@ -40,6 +40,7 @@
       0px -2px 0 #000,
       0px 2px 0 #000;
   }
+  
 }
 
 body {
@@ -51,8 +52,20 @@ body {
   -moz-user-drag: none;
 }
 
+.perspective-1000 {
+  perspective: 1000px;
+}
+
 .custom-line {
   border: none;
   border-top: 1px solid #000;
   margin: 20px 0;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg); /* Obrót o 180 stopni po najechaniu */
+}
+
+.flip-card-back {
+  transform: rotateY(180deg); /* Obrót tylnej strony o 180 stopni */
 }

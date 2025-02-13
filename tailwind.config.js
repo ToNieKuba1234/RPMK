@@ -17,17 +17,25 @@ module.exports = {
         'bebas-neue': ['Bebas Neue', 'sans-serif'],
         'selection': ['Selection', 'sans-serif']
       },
-      perspective: {
-        '1000': '1000px',
-      },
-      rotate: {
-        'y-180': 'rotateY(180deg)',
-      },
+      // rotate: {
+      //   'y-180': 'rotateY(180deg)',
+      // },
       backface: {
         hidden: 'backface-visibility: hidden',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    function ({ addUtilities }) {
+      addUtilities({
+        '.transform-style-preserve-3d': {
+          'transform-style': 'preserve-3d',
+        },
+        '.backface-hidden': {
+          'backface-visibility': 'hidden',
+        },
+      });
+    },
+  ],
 }
 
